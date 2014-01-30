@@ -21,7 +21,8 @@ public class Test2 extends ActivityInstrumentationTestCase2<ActivityOne> {
    	@Override
    	public void tearDown() throws Exception {
         solo.finishOpenedActivities();
-		assertTrue("Activity stack not empty.", solo.waitForEmptyActivityStack(5000));
+        Thread.sleep(5000);
+        assertTrue("Activity stack not empty.", solo.waitForEmptyActivityStack(5000));
 
   	}
   

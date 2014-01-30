@@ -85,7 +85,7 @@ public class ActivityOne extends Activity {
 		}
 
 		// TODO: Emit LogCat message
-		Log.i(TAG, "The activity is created");
+		Log.i(TAG, "Entered the onCreate() method");
 
 		// TODO:
 		// Update the appropriate count variable
@@ -101,7 +101,7 @@ public class ActivityOne extends Activity {
 		super.onStart();
 
 		// TODO: Emit LogCat message
-		Log.i(TAG, "The activity is visible and about to be started.");
+		Log.i(TAG, "Entered the onStart() method");
 
 		// TODO:
 		// Update the appropriate count variable
@@ -115,7 +115,7 @@ public class ActivityOne extends Activity {
 		super.onResume();
 
 		// TODO: Emit LogCat message
-		Log.i(TAG, "The activity is and has focus (it is now \"resumed\")");
+		Log.i(TAG, "Entered the onResume() method");
 
 		// TODO:
 		// Update the appropriate count variable
@@ -129,8 +129,7 @@ public class ActivityOne extends Activity {
 		super.onPause();
 
 		// TODO: Emit LogCat message
-		Log.i(TAG,
-				"Another activity is taking focus (this activity is about to be \"paused\")");
+		Log.i(TAG, "Entered the onPause() method");
 	}
 
 	@Override
@@ -138,7 +137,7 @@ public class ActivityOne extends Activity {
 		super.onStop();
 
 		// TODO: Emit LogCat message
-		Log.i(TAG, "The activity is no longer visible (it is now \"stopped\")");
+		Log.i(TAG, "Entered the onStop() method");
 	}
 
 	@Override
@@ -146,7 +145,7 @@ public class ActivityOne extends Activity {
 		super.onRestart();
 
 		// TODO: Emit LogCat message
-		Log.i(TAG, "The activity is visible and about to be restarted.");
+		Log.i(TAG, "Entered the onRestart() method");
 
 		// TODO:
 		// Update the appropriate count variable
@@ -160,7 +159,7 @@ public class ActivityOne extends Activity {
 		super.onDestroy();
 
 		// TODO: Emit LogCat message
-		Log.i(TAG, "The activity is about to be destroyed.");
+		Log.i(TAG, "Entered the onDestory() method");
 	}
 
 	@Override
